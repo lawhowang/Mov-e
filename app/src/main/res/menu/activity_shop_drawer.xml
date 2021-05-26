@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_white"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_movies"
+            android:icon="@drawable/ic_menu_movies"
+            android:title="Movies" />
+        <item
+            android:id="@+id/nav_tv"
+            android:icon="@drawable/ic_menu_tv"
+            android:title="TV" android:visible="false"/>
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search"
+            android:title="Search" />
+    </group>
+
+    <item android:title="My Area">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_shopping_cart"
+                    android:icon="@drawable/ic_menu_shopping_cart"
+                    android:title="Shopping Cart" />
+                <item
+                    android:id="@+id/nav_watchlist"
+                    android:icon="@drawable/ic_menu_watchlist"
+                    android:title="Watchlist" />
+                <item
+                    android:id="@+id/nav_purchase_history"
+                    android:icon="@drawable/ic_history_black_24dp"
+                    android:title="Purchase History" />
+                <item
+                    android:id="@+id/nav_account"
+                    android:icon="@drawable/ic_menu_account"
+                    android:title="Account" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,45 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <PreferenceCategory android:title="Personal Information">
+        <EditTextPreference
+            android:capitalize="words"
+            android:inputType="textCapWords"
+            android:key="display_name"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Name" />
+
+        <EditTextPreference
+            android:inputType="textPassword"
+            android:key="user_password"
+            android:title="Password" />
+
+        <EditTextPreference
+            android:inputType="textEmailAddress"
+            android:key="email"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Email" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Credits">
+        <Preference android:title="Credits"
+            android:key="credits"
+            android:summary="0"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Operations">
+        <Preference android:title="Logout"
+            android:key="logout"
+            android:summary=""/>
+    </PreferenceCategory>
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+
+</PreferenceScreen>

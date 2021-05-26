@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <ImageView
+        android:id="@+id/imageView_SearchResultItemThumbnail"
+        android:layout_width="80dp"
+        android:layout_height="140dp"
+        app:srcCompat="@drawable/image_not_available" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp">
+
+        <TextView
+            android:id="@+id/textView_SearchResultItemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:paddingBottom="10dp"
+            android:text="MovieName"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView_SearchResultItemYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:alpha=".8"
+            android:gravity="top"
+            android:paddingTop="10dp"
+            android:text="Year" />
+    </LinearLayout>
+
+</LinearLayout>

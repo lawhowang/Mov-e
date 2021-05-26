@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "896426438386",
+    "firebase_url": "https://app-project-220712.firebaseio.com",
+    "project_id": "app-project-220712",
+    "storage_bucket": "app-project-220712.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896426438386:android:d7f1199a47fbd0d3",
+        "android_client_info": {
+          "package_name": "com.cityu.ast.move"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896426438386-nl1tdars197i3omo0b8d73op93sn0lpm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUgM_g0F2oLPX6agZQzYUk-Ze0ahjANSU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

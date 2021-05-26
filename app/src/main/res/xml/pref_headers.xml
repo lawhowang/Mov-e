@@ -1,0 +1,20 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="com.cityu.ast.move.Settings$GeneralPreferenceFragment"
+        android:icon="@drawable/ic_menu_account"
+        android:title="Account" />
+
+    <header
+        android:fragment="com.cityu.ast.move.Settings$NotificationPreferenceFragment"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Notifications" />
+
+    <header
+        android:fragment="com.cityu.ast.move.Settings$AboutUsPreferenceFragment"
+        android:icon="@drawable/ic_info"
+        android:title="About Us" />
+
+</preference-headers>
